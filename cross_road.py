@@ -9,7 +9,7 @@ n_actions = 3  # Actions: 0=Left, 1=Stay, 2=Right
 Q = np.zeros((n_states, n_actions))
 
 # Hyperparameters
-episodes = 1000
+episodes = 50
 learning_rate = 0.8
 gamma = 0.9
 epsilon = 0.3
